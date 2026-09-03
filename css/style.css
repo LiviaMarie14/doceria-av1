@@ -350,3 +350,6 @@ footer p {
     }
 
 }
+.produto-imagem img {
+    border-radius: 50px;
+}
