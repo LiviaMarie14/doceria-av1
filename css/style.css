@@ -193,50 +193,7 @@ p {
     font-size: 1.1rem;
 }
 
-.btn-adicionar {
-    background-color: #f6ccd9;
-    color: #8e4d62;
-    border: none;
-    border-radius: 20px;
-    padding: 7px 15px;
-}
 
-.btn-adicionar:hover {
-    background-color: #c86b88;
-    color: white;
-}
-
-
-
-.pedido {
-    padding: 70px 0;
-}
-
-.pedido-box {
-    background-color: white;
-    padding: 35px;
-    border-radius: 25px;
-    border: 1px solid #f2dce2;
-}
-
-.pedido-vazio {
-    text-align: center;
-    padding: 40px;
-    color: #9b7c84;
-}
-
-.item-pedido {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 0;
-    border-bottom: 1px solid #f2e2e6;
-}
-
-.total {
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.2rem;
-}
 
 
 
@@ -265,31 +222,13 @@ p {
     padding: 12px;
 }
 
-.formulario input:focus,
-.formulario textarea:focus {
-    border-color: #c86b88;
-    box-shadow: 0 0 0 0.15rem rgba(200, 107, 136, 0.15);
-}
-
 
 
 .promocoes {
     padding: 70px 0;
 }
 
-.promo-card {
-    background: linear-gradient(
-        135deg,
-        #fff,
-        #fce6ed
-    );
 
-    border: 1px solid #f0d2db;
-    border-radius: 30px;
-    padding: 40px;
-    height: 100%;
-    text-align: center;
-}
 
 .promo-tag {
     display: inline-block;
@@ -300,15 +239,6 @@ p {
     font-size: 0.7rem;
     letter-spacing: 1px;
 }
-
-.preco-promo {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #a9516d;
-    margin: 20px 0;
-}
-
-
 
 
 footer {
@@ -323,33 +253,6 @@ footer p {
 }
 
 
-
-@media (max-width: 768px) {
-
-    .hero {
-        padding: 60px 0;
-        text-align: center;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .texto-hero {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .imagem-hero {
-        margin-top: 40px;
-        width: 100%;
-    }
-
-    .pagina-titulo h1 {
-        font-size: 2.4rem;
-    }
-
-}
 .produto-imagem img {
     border-radius: 50px;
 }
