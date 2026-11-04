@@ -1,8 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -19,85 +19,69 @@
 </head>
 
 <body>
+
 <header>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
+
             <a class="navbar-brand logo" href="index.html">
                 L'marie Douce
             </a>
 
-            
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">
-                            Início
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="cardapio.html">
-                            Cardápio
-                        </a>
-                    </li>
-
 
                     <li class="nav-item">
-                        <a class="nav-link" href="informacoes.html">
-                            Suas Informações
-                        </a>
+                        <a class="nav-link" href="index.html">Início</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="promocoes.html">
-                            Promoções
-                        </a>
+                        <a class="nav-link active" href="cardapio.html">Cardápio</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="pedido.html">Pedido</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="informacoes.html">Suas Informações</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="promocoes.html">Promoções</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
-   </nav>
+    </nav>
 </header>
+
 <main>
 
     <section class="pagina-titulo">
-
         <div class="container text-center">
-
-            <h1>
-                Nosso Cardápio
-            </h1>
-
-            <p>
-                Escolha teus favoritos e monte teu pedido.
-            </p>
-
+            <h1>Nosso Cardápio</h1>
+            <p>Escolha teus favoritos e monte teu pedido.</p>
         </div>
-
     </section>
 
     <section class="produtos">
-
         <div class="container">
 
-            <h2 class="titulo-categoria">
-                 Doces
-            </h2>
+            <h2 class="titulo-categoria">Doces</h2>
 
             <div class="row g-4">
 
                 <div class="col-sm-6 col-lg-4">
-
                     <article class="produto-card">
-
                         <div class="produto-conteudo">
 
-                          <div class="produto-imagem">
-                            <img src="img/fatia.de.bolo.jpg" alt="bolo de morango" class="img-fluid"> 
+                            <div class="produto-imagem">
+                                <img src="img/fatia.de.bolo.jpg" alt="bolo de morango" class="img-fluid">
                             </div>
-                
-                            <h3>
-                                Bolo de Morango - Fatia
-                            </h3>
+
+                            <h3>Bolo de Morango - Fatia</h3>
 
                             <p>
                                 Massa fofa, creme de baunilha
@@ -105,30 +89,28 @@
                             </p>
 
                             <div class="produto-final">
+                                <strong>R$ 12,00</strong>
 
-                                <strong>
-                                    R$ 12,00
-                                </strong>
-
-
+                                <button class="btn btn-primary btn-adicionar"
+                                    data-nome="Bolo de Morango - Fatia"
+                                    data-preco="12">
+                                    Adicionar ao pedido
+                                </button>
                             </div>
+
                         </div>
                     </article>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
-
                     <article class="produto-card">
-
                         <div class="produto-conteudo">
 
                             <div class="produto-imagem">
                                 <img src="img/cupcake.de.baunilha.jpg" alt="cupcake de baunilha" class="img-fluid">
                             </div>
 
-                            <h3>
-                                Cupcake de Baunilha - Unidade
-                            </h3>
+                            <h3>Cupcake de Baunilha - Unidade</h3>
 
                             <p>
                                 Cupcake macio com cobertura cremosa
@@ -136,30 +118,28 @@
                             </p>
 
                             <div class="produto-final">
+                                <strong>R$ 9,00</strong>
 
-                                <strong>
-                                    R$ 9,00
-                                </strong>
-
-
+                                <button class="btn btn-primary btn-adicionar"
+                                    data-nome="Cupcake de Baunilha - Unidade"
+                                    data-preco="9">
+                                    Adicionar ao pedido
+                                </button>
                             </div>
+
                         </div>
                     </article>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
-
                     <article class="produto-card">
-
                         <div class="produto-conteudo">
 
                             <div class="produto-imagem">
                                 <img src="img/brownie.jpg" alt="brownie" class="img-fluid">
                             </div>
 
-                            <h3>
-                                Brownie - Pedaço 
-                            </h3>
+                            <h3>Brownie - Pedaço</h3>
 
                             <p>
                                 Brownie de chocolate com
@@ -167,27 +147,26 @@
                             </p>
 
                             <div class="produto-final">
+                                <strong>R$ 10,00</strong>
 
-                                <strong>
-                                    R$ 10,00
-                                </strong>
-
-
+                                <button class="btn btn-primary btn-adicionar"
+                                    data-nome="Brownie - Pedaço"
+                                    data-preco="10">
+                                    Adicionar ao pedido
+                                </button>
                             </div>
+
                         </div>
                     </article>
                 </div>
+
             </div>
 
-            <h2 class="titulo-categoria mt-5">
-                 Bebidas
-            </h2>
+            <h2 class="titulo-categoria mt-5">Bebidas</h2>
 
             <div class="row g-4">
 
-
                 <div class="col-sm-6 col-lg-4">
-
                     <article class="produto-card">
                         <div class="produto-conteudo">
 
@@ -195,9 +174,7 @@
                                 <img src="img/capuccino.jpg" alt="cappuccino" class="img-fluid">
                             </div>
 
-                            <h3>
-                                Cappuccino
-                            </h3>
+                            <h3>Cappuccino</h3>
 
                             <p>
                                 Café cremoso com leite vaporizado
@@ -205,61 +182,61 @@
                             </p>
 
                             <div class="produto-final">
+                                <strong>R$ 11,00</strong>
 
-                                <strong>
-                                    R$ 11,00
-                                </strong>
-
-
+                                <button class="btn btn-primary btn-adicionar"
+                                    data-nome="Cappuccino"
+                                    data-preco="11">
+                                    Adicionar ao pedido
+                                </button>
                             </div>
+
                         </div>
                     </article>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
-
                     <article class="produto-card">
                         <div class="produto-conteudo">
 
-                          <div class="produto-imagem">
-                            <img src="img/milkshake.jpg" alt="milkshake de morango ou chocolate" class="img-fluid">
+                            <div class="produto-imagem">
+                                <img src="img/milkshake.jpg" alt="milkshake de morango ou chocolate" class="img-fluid">
                             </div>
-                          
-                            <h3>
-                                Milkshake de Morango ou Chocolate
-                            </h3>
+
+                            <h3>Milkshake de Morango ou Chocolate</h3>
 
                             <p>
-                                Cremoso, gelado e preparado com morangos frestou ou chocolate de qualidade.
+                                Cremoso, gelado e preparado com morangos frescos
+                                ou chocolate de qualidade.
                             </p>
 
                             <div class="produto-final">
+                                <strong>R$ 15,00</strong>
 
-                                <strong>
-                                    R$ 15,00
-                                </strong>
-
+                                <button class="btn btn-primary btn-adicionar"
+                                    data-nome="Milkshake de Morango ou Chocolate"
+                                    data-preco="15">
+                                    Adicionar ao pedido
+                                </button>
                             </div>
+
                         </div>
                     </article>
                 </div>
+
             </div>
         </div>
     </section>
+
 </main>
 
 <footer>
-
     <div class="container text-center">
-
-        <p>
-             2026 L'Marie Douce
-        </p>
-
+        <p>2026 L'Marie Douce</p>
     </div>
-
 </footer>
 
-</body>
+<script src="js/carrinho.js"></script>
 
+</body>
 </html>
