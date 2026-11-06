@@ -1,5 +1,7 @@
 
+
 let carrinho = JSON.parse(localStorage.getItem("carrinhoLMarie")) || [];
+
 
 function salvarCarrinho() {
     localStorage.setItem("carrinhoLMarie", JSON.stringify(carrinho));
@@ -11,6 +13,7 @@ function formatarMoeda(valor) {
         currency: "BRL"
     });
 }
+
 
 function mostrarMensagem(texto, tipo) {
     const mensagem = document.getElementById("mensagem");
@@ -40,6 +43,7 @@ function adicionarProduto(nome, preco) {
     mostrarMensagem(nome + " foi adicionado ao pedido!", "success");
 }
 
+
 function alterarQuantidade(nome, mudanca) {
     const produto = carrinho.find(item => item.nome === nome);
 
@@ -56,12 +60,14 @@ function alterarQuantidade(nome, mudanca) {
     renderizarCarrinho();
 }
 
+
 function removerProduto(nome) {
     carrinho = carrinho.filter(produto => produto.nome !== nome);
 
     salvarCarrinho();
     renderizarCarrinho();
 }
+
 
 function calcularTotais() {
     let subtotal = 0;
@@ -113,7 +119,6 @@ function renderizarCarrinho() {
 
     calcularTotais();
 }
-
 const botaoLimpar = document.getElementById("limpar-carrinho");
 
 if (botaoLimpar) {
@@ -123,6 +128,7 @@ if (botaoLimpar) {
         renderizarCarrinho();
         mostrarMensagem("Pedido limpo com sucesso!", "info");
     });
+}
 
 const formulario = document.getElementById("form-pedido");
 
@@ -163,7 +169,6 @@ if (formulario) {
     });
 }
 
-
 document.querySelectorAll(".btn-adicionar").forEach(function(botao) {
 
     botao.addEventListener("click", function() {
@@ -178,6 +183,4 @@ document.querySelectorAll(".btn-adicionar").forEach(function(botao) {
 });
 
 renderizarCarrinho();
-
-
 
