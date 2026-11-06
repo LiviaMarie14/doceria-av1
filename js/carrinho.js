@@ -178,3 +178,6 @@ document.querySelectorAll(".btn-adicionar").forEach(function(botao) {
 });
 
 renderizarCarrinho();
+
+
+
